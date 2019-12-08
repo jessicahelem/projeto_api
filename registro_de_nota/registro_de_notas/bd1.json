@@ -1,0 +1,115 @@
+{
+	"professores": [
+		{
+			"name":"Sicrano",
+			"email":"s@s.com",
+			"username":"sicrano"
+		},
+		{
+			"name":"Fulano",
+			"email":"f@f.com",
+			"username":"fulano"
+		},
+		{
+			"name":"Beltrano",
+			"email":"b@b.com",
+			"username":"beltrano"
+		}
+	],
+	"alunos": [
+		{
+			"name":"Joao",
+			"email":"j@j.com",
+			"username":"joao"
+		},
+		{
+			"name":"Maria",
+			"email":"m@m.com",
+			"username":"maria"
+		},
+		{
+			"name":"José",
+			"email":"z@z.com",
+			"username":"jose"
+		}
+	],
+	"disciplinas": [
+		{
+			"name" : "Algoritmo",
+			"professor" : "sicrano"
+		},
+		{
+			"name" : "Estrutura de Dados",
+			"professor" : "beltrano"
+		},
+		{
+			"name" : "Programação Web",
+			"professor" : "fulano"
+		}
+	],
+	"grades": [
+		{
+			"value":10,
+			"year":2010,
+			"semester":1,
+			"disciplina":1,
+			"aluno":"joao"
+		},
+		{
+			"value":5,
+			"year":2010,
+			"semester":1,
+			"disciplina":2,
+			"aluno":"joao"
+		},
+		{
+			"value":6,
+			"year":2010,
+			"semester":1,
+			"disciplina":3,
+			"aluno":"joao"
+		},
+		{
+			"value":8,
+			"year":2010,
+			"semester":1,
+			"disciplina":1,
+			"aluno":"jose"
+		},
+		{
+			"value":9,
+			"year":2010,
+			"semester":1,
+			"disciplina":2,
+			"aluno":"jose"
+		},
+		{
+			"value":6,
+			"year":2010,
+			"semester":1,
+			"disciplina":3,
+			"aluno":"jose"
+		},
+		{
+			"value":8,
+			"year":2010,
+			"semester":1,
+			"disciplina":1,
+			"aluno":"maria"
+		},
+		{
+			"value":10,
+			"year":2010,
+			"semester":1,
+			"disciplina":2,
+			"aluno":"maria"
+		},
+		{
+			"value":6,
+			"year":2010,
+			"semester":1,
+			"disciplina":3,
+			"aluno":"maria"
+		}
+	]
+}
